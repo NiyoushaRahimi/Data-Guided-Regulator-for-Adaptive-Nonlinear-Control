@@ -58,21 +58,22 @@ To be updated.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+* Code will be updated
+This project is the implementation of this [paper](https://).
 
-In this work, a Machine Learning based perception module is developed using Mask-RCNN (and Bayesian Neural Networks) with RGB-D images to estimate the position of objects in an Unreal Engin environment. Two methods are offered for autonomous navigation:
+### Abstract
+This paper addresses the problem of designing a data-driven feedback controller for complex nonlinear dynamical systems in the presence of  time-varying disturbances with unknown dynamics. Such disturbances are modeled as the ``unknown'' part of the system dynamics. The goal is to achieve finite-time regulation of system states through direct policy updates while also generating informative data that can subsequently be used for data-driven stabilization or system identification. 
 
-* Sampling based approaches such as RRT^* and Astar 
-* stochastic optimal control: Successive convexification for path planning.
+    First, we expand upon the notion of ``regularizability'' and characterize this system characteristic for a linear time-varying representation of the nonlinear system with locally-bounded higher-order terms. ``Rapid-regularizability'' then gauges the extent by which a system can be regulated in finite time, in contrast to its asymptotic behavior.
+    
+    We then propose the \acf{DG-RAN} algorithm, an online iterative synthesis procedure that utilizes discrete time-series data from a single trajectory for regulating system states and identifying disturbance dynamics. The effectiveness of our approach is demonstrated on a 6-DOF power descent guidance problem in the presence of adverse environmental disturbances.
 
-It should be mentioned that some parts of the project is still under development.
+
 
 ## Requirements
 
 Main requirements are as follows:
-* [Unreal Engin 4.25.3](https://www.unrealengine.com/en-US/download)
-* [Airsim](https://github.com/microsoft/AirSim)
-* Tensorflow-gpu 1.13 (could work with v1.15)
-* Keras 2.1.6
+* 
 
 GPU and processor I used:
 
@@ -81,51 +82,15 @@ Intel(R) Core(TM) i7-8850H CPU @  2.60 GHz, 2592 Mhz, 6 Core(s),  12  Logical Pr
 Nvidia Quadro P2000
 
 
-<!-- GETTING STARTED -->
-## Getting Started with Unreal Engin
 
-Please download and install unreal engin. 
-I have created an unreal engine environment of an airport. This environment can be downloaded from here: 
-* [Airport environment](https://drive.google.com/file/d/1zUhz1Me5F2KKPsuPvBpftNABcb4D2hnI/view?usp=sharing)
-
-Make sure to load AirportShowcase and hit play before running any code.
-
-![AirportShowcase](Images/Figure-1.png)
-
-
-### Building the initial map
-
-There are three frame of references we need to consider:
-1. Unreal-engin coordinate frame
-2. The moving vehicle coordinate frame (the origin of the airsim's coordinate frame is placed at the position of camera when the simulation was started)
-3. The map's coordinate frame
-
-The following figure demonstrates these coordinate frames and their origins:
-
-
-
-<img src="Images/Figure-2.png" width="500" height="400">
-
-Code is provided in map.py for building an initial occupancy map.
-
-
-<img src="Images/Figure_5.png" width="300" height="300">
 
 ## Main project
 
-The main project is carried out in car-sim.py.
+The main project is carried out in main.py.
 
-Please update root-directory in Mask_RCNN.py and car_sim.py.
-
-
-Given the inirtial occupancy map, RRT^* is used to generate a path from the start point (300,50) to the end point (25,250).
-When the vehicle reaches the vacinity of the unknown-obstacle, it starts processing images taken from the scene. Maks-RCNN is used to detect the obstacle in the image, then depth map is used to determin the position of the unknown-obstacle. The map is then updated using this information, and a new path is generated. 
-The vehicle then follows the new path to the goal location.
+Please update root-directory in 
 
 
-<img src="Images/Figure-3.png" width="400" height="400">
-
-<img src="Images/Figure-4.png" width="500" height="300">
 
 
 
@@ -133,19 +98,6 @@ The vehicle then follows the new path to the goal location.
 <!-- USAGE EXAMPLES -->
 ## Usage
 Here's a demo of the simulation:
-
-<a href="https://github.com/NiyoushaRahimi/UW-MLP/blob/main/Images/demo.mp4">View Demo</a>
-
-<img src="Images/Figure-6.png" width="500" height="400">
-
-<!-- ROADMAP -->
-## Roadmap
-Please look out for these updates in coming days:
-
-1. debugging successive convexification for path planning.
-3. using Bayesian NN to predict accuracy of the estimates.
-
-
 
 
 
