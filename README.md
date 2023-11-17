@@ -57,11 +57,11 @@
 * This project is the implementation of this [paper](https://).
 
 ### Abstract
-This paper addresses the problem of designing a data-driven feedback controller for complex nonlinear dynamical systems in the presence of  time-varying disturbances with unknown dynamics. Such disturbances are modeled as the <bclass="term">unknown</b> part of the system dynamics. The goal is to achieve finite-time regulation of system states through direct policy updates while also generating informative data that can subsequently be used for data-driven stabilization or system identification. 
+This paper addresses the problem of designing a data-driven feedback controller for complex nonlinear dynamical systems in the presence of  time-varying disturbances with unknown dynamics. Such disturbances are modeled as the <b class="term">unknown</b> part of the system dynamics. The goal is to achieve finite-time regulation of system states through direct policy updates while also generating informative data that can subsequently be used for data-driven stabilization or system identification. 
 
-First, we expand upon the notion of <bclass="keywords">regularizability</b> and characterize this system characteristic for a linear time-varying representation of the nonlinear system with locally-bounded higher-order terms. <bclass="keywords">Rapid-regularizability</b> then gauges the extent by which a system can be regulated in finite time, in contrast to its asymptotic behavior.
+First, we expand upon the notion of <b class="keywords">regularizability</b> and characterize this system characteristic for a linear time-varying representation of the nonlinear system with locally-bounded higher-order terms. <b class="keywords">Rapid-regularizability</b> then gauges the extent by which a system can be regulated in finite time, in contrast to its asymptotic behavior.
 
-We then propose the <bclass="keywords">DG-RAN</b> algorithm, an online iterative synthesis procedure that utilizes discrete time-series data from a single trajectory for regulating system states and identifying disturbance dynamics. The effectiveness of our approach is demonstrated on a 6-DOF power descent guidance problem in the presence of adverse environmental disturbances.
+We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterative synthesis procedure that utilizes discrete time-series data from a single trajectory for regulating system states and identifying disturbance dynamics. The effectiveness of our approach is demonstrated on a 6-DOF power descent guidance problem in the presence of adverse environmental disturbances.
 
 
 
