@@ -59,27 +59,27 @@ To be updated.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 * Code will be updated
-This project is the implementation of this [paper](https://).
+* This project is the implementation of this [paper](https://).
 
 ### Abstract
 This paper addresses the problem of designing a data-driven feedback controller for complex nonlinear dynamical systems in the presence of  time-varying disturbances with unknown dynamics. Such disturbances are modeled as the ``unknown'' part of the system dynamics. The goal is to achieve finite-time regulation of system states through direct policy updates while also generating informative data that can subsequently be used for data-driven stabilization or system identification. 
 
-    First, we expand upon the notion of ``regularizability'' and characterize this system characteristic for a linear time-varying representation of the nonlinear system with locally-bounded higher-order terms. ``Rapid-regularizability'' then gauges the extent by which a system can be regulated in finite time, in contrast to its asymptotic behavior.
+    First, we expand upon the notion of "regularizability" and characterize this system characteristic for a linear time-varying representation of the nonlinear system with locally-bounded higher-order terms. "Rapid-regularizability" then gauges the extent by which a system can be regulated in finite time, in contrast to its asymptotic behavior.
     
-    We then propose the \acf{DG-RAN} algorithm, an online iterative synthesis procedure that utilizes discrete time-series data from a single trajectory for regulating system states and identifying disturbance dynamics. The effectiveness of our approach is demonstrated on a 6-DOF power descent guidance problem in the presence of adverse environmental disturbances.
+    We then propose the DG-RAN algorithm, an online iterative synthesis procedure that utilizes discrete time-series data from a single trajectory for regulating system states and identifying disturbance dynamics. The effectiveness of our approach is demonstrated on a 6-DOF power descent guidance problem in the presence of adverse environmental disturbances.
 
 
 
 ## Requirements
 
 Main requirements are as follows:
-* 
+* --
 
-GPU and processor I used:
+* GPU and processor I used:
 
-Intel(R) Core(TM) i7-8850H CPU @  2.60 GHz, 2592 Mhz, 6 Core(s),  12  Logical Processor(s) 
+** Intel(R) Core(TM) i7-8850H CPU @  2.60 GHz, 2592 Mhz, 6 Core(s),  12  Logical Processor(s) 
 
-Nvidia Quadro P2000
+** Nvidia Quadro P2000
 
 
 
