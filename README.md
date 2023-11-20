@@ -66,7 +66,7 @@ We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterativ
 * The quadratic funnel computed by the $\gamma$-iteration for the 6-DOF power descent problem in the presence of unmodeled time-varying disturbances. The initial condition of each test case was randomly sampled from the funnel entry, and the system uses only the offline robust controller.
 
 
-![position and linear velocity in state space $\mathcal{E}_Q$](Figures/state space funnel with disturbance-v2.png)
+![pv_disturbance](Figures/state space funnel with disturbance-v2.png)
 
 
 
