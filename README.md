@@ -45,6 +45,7 @@
     <li><a href="#main-project">Main Project</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#Citting">Citting</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -131,7 +132,26 @@ Niyousha Rahimi - nrahimi@uw.edu
 RAIN Lab, University of Washington
 
 
+## Citing
 
+If you use any part of the code, kindly cite the following associated publication.
+
+```
+@article{,
+  doi = {},
+  url = {},
+  year = {2024},
+  month = Jan,
+  publisher = {},
+  volume = {},
+  number = {},
+  pages = {},
+  author = {Niyousha Rahimi, Mehran Mesbahi},
+  title = {Data-Guided Regulator for Adaptive Nonlinear Control},
+  journal = {{IEEE} Control Systems},
+  note = {}
+}
+```
 
 
 
