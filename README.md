@@ -147,6 +147,7 @@ If you use any part of the code, kindly cite the following associated publicatio
 ```
 
 ## Acknowledgements
+The research of the first author has been partially supported by the UW+Amazon Science Hub Fellowship. This research has also been supported by NSF grant ECCS-2149470.
 
 
 
