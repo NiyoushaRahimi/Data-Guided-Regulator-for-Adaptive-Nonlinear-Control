@@ -45,7 +45,7 @@
     <li><a href="#main-project">Main Project</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#Citting">Citting</a></li>
+    <li><a href="#Citing">Citing</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
