@@ -68,7 +68,7 @@ We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterativ
 
 ![pv_disturbance][/Figures/state_space_funnel_with_disturbance_v2.png]
 
-
+![GitHub Logo](/Figures/state_space_funnel_with_disturbance_v2.png)
 
 ## Requirements
 
