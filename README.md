@@ -70,12 +70,12 @@ We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterativ
 
 <div style="text-align: center;">
     <img src="/Figures/state_space_funnel_with_disturbance_v2.png" width="500">
-    <p>Fig 1. (a) position and linear velocity in state space $\mathcal{E}_Q$</p>
+    <p><b class="keywords">Fig 1. (a)</b> position and linear velocity in state space $\mathcal{E}_Q$</p>
 </div>
 
 <div style="text-align: center;">
     <img src="/Figures/tw_state_space_funnel_with_disturbance_v2.png" width="500">
-    <p>Fig 1. (b) rotation angles and angular velocity in state space $\mathcal{E}_Q$</p>
+    <p><b class="keywords">Fig 1. (b)</b> rotation angles and angular velocity in state space $\mathcal{E}_Q$</p>
 </div>
 
 
@@ -84,12 +84,12 @@ We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterativ
 
 <div style="text-align: center;">
     <img src="/Figures/rv_disturbance_v2.png" width="500">
-    <p>Fig 1. (a) position and linear velocity in state space $\mathcal{E}_Q$</p>
+    <p><b class="keywords">Fig 2. (a)</b> position and linear velocity in state space $\mathcal{E}_Q$</p>
 </div>
 
 <div style="text-align: center;">
     <img src="/Figures/tw_disturbance_v2.png" width="500">
-    <p>Fig 1. (b) rotation angles and angular velocity in state space $\mathcal{E}_Q$</p>
+    <p><b class="keywords">Fig 2. (b)</b> rotation angles and angular velocity in state space $\mathcal{E}_Q$</p>
 </div>
 
 ## Requirements
