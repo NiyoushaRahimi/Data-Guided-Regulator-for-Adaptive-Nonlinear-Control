@@ -137,19 +137,12 @@ RAIN Lab, University of Washington
 If you use any part of the code, kindly cite the following associated publication.
 
 ```
-@article{,
-  doi = {},
-  url = {},
-  year = {2024},
-  month = Jan,
-  publisher = {},
-  volume = {},
-  number = {},
-  pages = {},
-  author = {Niyousha Rahimi, Mehran Mesbahi},
-  title = {Data-Guided Regulator for Adaptive Nonlinear Control},
-  journal = {{IEEE} Control Systems},
-  note = {}
+@inproceedings{rahimi2024data,
+  title={Data-Guided Regulator for Adaptive Nonlinear Control},
+  author={Rahimi, Niyousha and Mesbahi, Mehran},
+  booktitle={AIAA SCITECH 2024 Forum},
+  pages={},
+  year={2024}
 }
 ```
 
