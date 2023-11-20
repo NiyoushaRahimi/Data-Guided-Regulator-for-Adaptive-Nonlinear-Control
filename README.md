@@ -70,9 +70,27 @@ We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterativ
 
 <div style="text-align: center;">
     <img src="/Figures/state_space_funnel_with_disturbance_v2.png" width="500">
-    <p>position and linear velocity in state space $\mathcal{E}_Q$</p>
+    <p>Fig 1. (a) position and linear velocity in state space $\mathcal{E}_Q$</p>
 </div>
 
+<div style="text-align: center;">
+    <img src="/Figures/tw_state_space_funnel_with_disturbance_v2.png" width="500">
+    <p>Fig 1. (b) rotation angles and angular velocity in state space $\mathcal{E}_Q$</p>
+</div>
+
+
+* State trajectories generated using the online DG-RAN algorithm for the 6-DOF power descent problem in the presence of unmodeled time-varying disturbances. The initial condition for this test case was randomly sampled from the funnel entry, and the proposed method was implemented online for each test case. The shaded gray area represents $\mathcal{E}_{\bar{Q}(t)}$ projected onto each state, and the shaded dark blue area represents the projection of the inner invariant funnel $\mathcal{E}(t)$ onto each state.
+
+
+<div style="text-align: center;">
+    <img src="/Figures/rv_disturbance_v2.png" width="500">
+    <p>Fig 1. (a) position and linear velocity in state space $\mathcal{E}_Q$</p>
+</div>
+
+<div style="text-align: center;">
+    <img src="/Figures/tw_disturbance_v2.png" width="500">
+    <p>Fig 1. (b) rotation angles and angular velocity in state space $\mathcal{E}_Q$</p>
+</div>
 
 ## Requirements
 
