@@ -64,6 +64,8 @@ First, we expand upon the notion of <b class="keywords">regularizability</b> and
 We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterative synthesis procedure that utilizes discrete time-series data from a single trajectory for regulating system states and identifying disturbance dynamics. The effectiveness of our approach is demonstrated on a 6-DOF power descent guidance problem in the presence of adverse environmental disturbances.
 
 * The quadratic funnel computed by the $\gamma$-iteration for the 6-DOF power descent problem in the presence of unmodeled time-varying disturbances. The initial condition of each test case was randomly sampled from the funnel entry, and the system uses only the offline robust controller.
+
+
 ![GitHub Logo](/Figures/state space funnel with disturbance-v2.png)
 
 ## Requirements
