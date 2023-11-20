@@ -67,8 +67,10 @@ We then propose the <b class="keywords">DG-RAN</b> algorithm, an online iterativ
 
 
 
+
 <div style="text-align: center;">
     <img src="/Figures/state_space_funnel_with_disturbance_v2.png" width="500">
+    <p>position and linear velocity in state space $\mathcal{E}_Q$</p>
 </div>
 
 
